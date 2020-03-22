@@ -53,6 +53,11 @@ public class GameMechanics : MonoBehaviour
         SceneManager.LoadScene("Game");
     }
 
+    public void QuitGame ()
+    {
+        Application.Quit();
+    }
+
     IEnumerator DiceMechanics ()
     {
         button_dice.interactable = false;
