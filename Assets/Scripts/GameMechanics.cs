@@ -173,6 +173,8 @@ public class GameMechanics : MonoBehaviour
         float elapsed_time = 0;
         Vector3 start_pos = GD.players[player_cur].transform.position;
 
+        end_pos += Vector3.up / 2f;
+
         while (elapsed_time < time)
         {
             GD.players[player_cur].transform.position = Vector3.Lerp(start_pos, (end_pos + (Vector3.up / 2f)), (elapsed_time / time));

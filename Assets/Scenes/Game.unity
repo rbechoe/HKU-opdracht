@@ -833,13 +833,20 @@ MonoBehaviour:
   domes_good: []
   domes_special: []
   players: []
+  props:
+  - {fileID: 3545867618621297226, guid: 7c15cc1ef00bc674da437455feb9e244, type: 3}
+  - {fileID: 6615147792084934513, guid: a2373120dd0f1fa4dae7df4972ff3925, type: 3}
+  - {fileID: 4009074218546042497, guid: ec14e7f841de01f4ab7f395bcf8bf5ec, type: 3}
   player_names: []
   player_position: 
   player_rolls: 
   player_tiles_left: 
+  dome_heights: 
   dome_model: {fileID: 2355155808976022686, guid: 567d7b96fc9cbde4e9f98668ef32d852,
     type: 3}
   dome_collection: {fileID: 1163689184}
+  surface_collection: {fileID: 1302142985}
+  prop_collection: {fileID: 539100643}
   player_a: {fileID: 3421036558850992986, guid: d75d2c870e1105b46bd3f7a3b785e3c0,
     type: 3}
   player_b: {fileID: 7044839872824632197, guid: d5dd68a4cad4fb14e95f22620739abef,
@@ -850,6 +857,24 @@ MonoBehaviour:
   input_name: {fileID: 1613694803}
   player_ui: {fileID: 1166408865}
   game_ui: {fileID: 613936447}
+  surface_010: {fileID: -927199367670048503, guid: 2837b84e9219ad44fa02fab5e14d0654,
+    type: 3}
+  surface_011: {fileID: -927199367670048503, guid: 91e9317a6140c584e9106b25023dece8,
+    type: 3}
+  surface_012: {fileID: -927199367670048503, guid: 6a21c08d78c22d946bd40a30a634c7df,
+    type: 3}
+  surface_110: {fileID: -927199367670048503, guid: b06b6962b842d894e9ec256feabf9fe1,
+    type: 3}
+  surface_111: {fileID: -927199367670048503, guid: a75e0c44c85d5e243b156896471aa61b,
+    type: 3}
+  surface_112: {fileID: -927199367670048503, guid: ec7d715aa3390cc4780d0a0ce4151314,
+    type: 3}
+  surface_210: {fileID: -927199367670048503, guid: f16e6cd8a64dc2747adaf5975f0c0101,
+    type: 3}
+  surface_211: {fileID: -927199367670048503, guid: 6fb7236800e87864592e2b30b517534e,
+    type: 3}
+  surface_212: {fileID: -927199367670048503, guid: d1cd21d8333fe56419bd29e88308712d,
+    type: 3}
 --- !u!114 &228395586
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1678,6 +1703,36 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 522041977}
   m_CullTransparentMesh: 0
+--- !u!1 &539100643
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 539100644}
+  m_Layer: 0
+  m_Name: Prop Collection
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &539100644
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 539100643}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.00894651, y: 2.9444954, z: -3.2216344}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &554795516
 GameObject:
   m_ObjectHideFlags: 0
@@ -3734,6 +3789,36 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1192217116}
   m_CullTransparentMesh: 0
+--- !u!1 &1302142985
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1302142986}
+  m_Layer: 0
+  m_Name: Surface Collection
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1302142986
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1302142985}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2.713243, y: 1.5388147, z: -15.452493}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1317867023
 GameObject:
   m_ObjectHideFlags: 0
